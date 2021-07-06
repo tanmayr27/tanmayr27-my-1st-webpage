@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Tanmay's Profile</title>
+	<div align="right"><a href="https://www.google.com/"><h3>back</h3></a></div>
+</head>
+<body>
+	
+	<strong><h2><ul><li>Home</li><li>About Us</li><li>Register</li><li>Services</li><li>Help</li></ul></h2></strong>
+	<hr><center><h1>Tanmay Ranjan</h1>
+	</center>
+	<center><img src="header.jpg" height="200" width="250"></center><br>
+	
+	<table border="10px" cellpadding="5px" cellspacing="5px" width="100%" style="border-color:green;">
+	
+	<tr ><th  colspan="2" style="color:blue;"><h2>Personal Detail's</h2></th></tr>
+		<tr style="color:violet;"><td style="color:white;"><i>Name:-</i></td><td><strong>Tanamy Ranjan</strong></td></tr>
+
+		<tr><td  style="color:white;"><i>Father's Name:-</i></td><td  style="color:violet;"><strong>Uttam Kumar Sahu</strong></td></tr>
+		<tr><td style="color:white;" ><i>Mother's Name:-</i></td><td style="color:violet;"><strong>Kusuma Sahu</strong></td></tr>
+
+		<tr ><th  colspan="2" style="color:blue;"><h2>Educational Qualification's</h2></th></tr>
+		<tr><td style="color:white;"><i>10th:-</i></td><td style="color:violet;"><strong>96.2% @ ICSE</strong></td></tr>
+		<tr><td style="color:white;"><i>12th:-</i></td><td style="color:violet;"><strong>CBSE @ Vidya Bharati Chinmaya Vidyalaya</strong></td></tr>
+		<tr><td style="color:white;"><i>Graduation:-</i></td><td style="color:violet;"><strong>CSE @ BIRLA INISTUTE OF TECHNOLOGY </strong></td></tr>
+	</table>
+	<script>
+		if('serviceWorker' in navigator){
+			navigator.serviceWorker.register('/sw.js')
+			.then(res=>{
+				console.info('SW Registered');
+		})
+			.catch(err=>{
+				console.error('Error in Registering SW',err)
+			})
+		}else
+		console.log('SW not supported');
+	</script>
+</body>
+</html>

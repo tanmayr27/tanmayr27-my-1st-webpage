@@ -1,0 +1,46 @@
+h3:hover{text-align: center;
+	color:red;
+	font-family:fantasy;
+	border:10px solid rgba(153, 255, 153,.5);
+	padding: 5px 5px 5px 5px;
+	border-radius: 50px;
+}
+li{
+	padding-right: 150px;
+ 	color: white;
+ 	list-style:none;
+ 	display: inline-block;
+ 	transition: all .1s;
+
+ }
+ li:hover{
+ 	color: violet;
+ 	transform: scale(1.5);
+ }
+
+ body{background-image: url(https://wallpapersite.com/images/wallpapers/blur-background-2880x1800-spectrum-electromagnetic-4k-901.jpg);
+
+ 	background-size: 	cover;}
+ h1{
+ 
+ 	color: red;
+ 	background:black;
+ 	border:10px dashed yellow;
+ 	border-radius: 	50px;
+ 	transition: all 3s;
+ }
+ h1:hover{transform: scale(1.5);}
+ th
+ {background: orange;transition: all 1s;}
+ td
+ {background: brown;transition: all 1s;}
+ th:hover{transform: scale(1.2);}
+ td:hover{transform: scale(1.2);}
+ img
+ {border-radius:100px;
+ 	transition: all 1s;
+ }
+ img:hover
+ {transform: scale(1.2);}
+ table
+ {border-radius:20px;}
